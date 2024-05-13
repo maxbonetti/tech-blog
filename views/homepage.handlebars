@@ -1,0 +1,12 @@
+<div class="posts-container">
+    {{#each posts}}
+    <div class="posts">
+        <h2>{{title}}</h2>
+        <p>{{content}}</p>
+        <p>Created By:{{User}}</p>
+        <p>Created On:{{formatDate date_created}}</p>
+    </div>
+    {{else}}
+    <p>No Available Posts, Know something? POST SOMETHING!</p>
+    {{/each}}
+</div>
