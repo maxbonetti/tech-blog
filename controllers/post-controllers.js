@@ -1,4 +1,5 @@
 // post route controller
+const router = require('express').Router();
 const { Post } = require('../models/Posts');
 
 const getPosts = async (req, res) => {
